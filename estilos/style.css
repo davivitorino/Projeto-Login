@@ -61,6 +61,24 @@ form > div.campo {
     height: 40px;
     width: 100%;
     margin: 4px 0px;
+    border-radius: 8px;
+}
+
+form > div.campo > span {
+   font-size: 2em;
+   width: 40px;
+   padding: 5px;
+
+}
+
+form > div.campo > input {
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-10px);
+
 }
 
 div.campo > label {
